@@ -227,6 +227,13 @@ main{
     font-weight: 300;
     color: var(--warm-black);
 }
+@media (max-width: 500px){
+    .main-currency-table{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+}
+}
 .main-product-detail{
     position: relative;
     width: 100%;
